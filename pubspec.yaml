@@ -1,7 +1,10 @@
 name: flutter_form_mailer
-description: "A new Flutter package project."
-version: 0.0.1
-homepage:
+description: "A Flutter package for easy form submissions via email using SMTP."
+version: 1.0.0
+homepage: "https://github.com/muhammadhusnain531/flutter_form_mailer"
+repository: "https://github.com/muhammadhusnain531/flutter_form_mailer"
+issue_tracker: "https://github.com/muhammadhusnain531/flutter_form_mailer/issues"
+documentation: "https://github.com/muhammadhusnain531/flutter_form_mailer/wiki"
 
 environment:
   sdk: ^3.5.3
@@ -10,18 +13,22 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  mailer: ^6.4.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
-  mailer: ^6.4.1
 
-# For information on the generic Dart part of this file, see the
+flutter:
+  uses-material-design: true
+
+
+
+  # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
-flutter:
 
   # To add assets to your package, add an assets section, like this:
   # assets:
