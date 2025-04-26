@@ -1,6 +1,6 @@
 name: flutter_form_mailer
 description: "A Flutter package for easy form submissions via email using SMTP."
-version: 1.0.0
+version: 1.0.1
 homepage: "https://github.com/muhammadhusnain531/flutter_form_mailer"
 repository: "https://github.com/muhammadhusnain531/flutter_form_mailer"
 issue_tracker: "https://github.com/muhammadhusnain531/flutter_form_mailer/issues"
@@ -19,6 +19,7 @@ dependencies:
   flutter:
     sdk: flutter
   mailer: ^6.4.1
+  file_picker: ^10.1.2
 
 dev_dependencies:
   flutter_test:
